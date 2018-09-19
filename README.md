@@ -15,10 +15,10 @@ $ brew tap mhelmetag/gosurf
 
 To install the GoSurf CLI:
 ```
-$ brew install gosurf
+$ brew install mhelmetag/gosurf/gosurf
 ```
 
 ## Updating
 ```
-$ brew upgrade gosurf
+$ brew upgrade mhelmetag/gosurf/gosurf
 ```
