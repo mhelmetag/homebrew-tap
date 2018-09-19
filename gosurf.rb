@@ -1,19 +1,11 @@
 class Gosurf < Formula
   desc "CLI Client for Surfline"
   homepage "https://github.com/mhelmetag/gosurf"
-  url "https://github.com/mhelmetag/gosurf/archive/0.0.4.tar.gz"
-  sha256 "4964eb0e53fb876e94ab8f8d64cd35ad5a655fb48df06a814433ae3dad418cce"
-
-  head "https://github.com/mhelmetag/gosurf.git"
-
-  depends_on "go" => :build
+  url "https://github.com/mhelmetag/gosurf/archive/0.0.4/gosurf_darwin_amd64"
+  sha256 "e46634283c047c71c1aaec05a0fe66ac1504958a5b21b027a4a825641ac6ef13"
 
   def install
-    ENV["GOPATH"] = buildpath
-
-    system "go", "build", "-o", "gosurf"
-
-    bin.install "gosurf"
+    bin.install "gosurf_darwin_amd64", "gosurf"
   end
 
   test do
