@@ -3,9 +3,9 @@
 class Gosurf < Formula
   desc 'CLI Client for Surfline'
   homepage 'https://github.com/mhelmetag/gosurf'
-  url 'https://github.com/mhelmetag/gosurf/releases/download/2.1.0/gosurf_darwin_amd64'
-  sha256 'dad14a1a4c2bb5de47bc42fb4c861a28f67981410fdbf08fe46bf9abd1986c92'
-  version '2.1.0'
+  url 'https://github.com/mhelmetag/gosurf/releases/download/2.3.0/gosurf_darwin_amd64'
+  sha256 '2f21b609c887e930637fe459d0512c7ccebff6150613b26c04f14fc912bd5eda'
+  version '2.3.0'
 
   def install
     bin.install 'gosurf_darwin_amd64'
