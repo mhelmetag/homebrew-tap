@@ -3,9 +3,9 @@
 class Gosurf < Formula
   desc 'CLI Client for Surfline'
   homepage 'https://github.com/mhelmetag/gosurf'
-  url 'https://github.com/mhelmetag/gosurf/archive/refs/tags/3.0.0.tar.gz'
-  sha256 '8c7b22430da3516359bef0a7ba6f516edfd370025e1a74ff18760c8a3f7c1552'
-  version '3.0.0'
+  url 'https://github.com/mhelmetag/gosurf/archive/refs/tags/3.1.0.tar.gz'
+  sha256 '94801eeab83b17393c7c08159b28bc60acf051fd51b95e7072e3e423f8f155e8'
+  version '3.1.0'
 
   depends_on "go" => :build
 
